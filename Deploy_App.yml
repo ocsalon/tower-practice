@@ -1,6 +1,7 @@
 ---
 - name: Deploy App
   hosts: all
+  become: true
   tasks:
     - name: Deploy app 
       copy:
