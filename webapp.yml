@@ -1,6 +1,6 @@
 ---
 - name: Devops CI/CD 
-  hosts: server62.lab.example.com
+  hosts: servern.lab.example.com
   become: true
   tasks:
     - name: Copy webapp to tomcat server
