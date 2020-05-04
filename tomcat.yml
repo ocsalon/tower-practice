@@ -1,6 +1,6 @@
 --- 
 - name: Playbook to install and configure Tomcat 9
-  hosts: serverb
+  hosts: server62.lab.example.com
   become: true
   tasks:
 
